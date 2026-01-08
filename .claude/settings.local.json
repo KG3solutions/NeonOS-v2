@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(ralph-loop:ralph-loop)",
+      "Skill(ralph-loop:ralph-loop:*)",
+      "Bash(\"/Users/kg3/.claude/plugins/cache/claude-plugins-official/ralph-loop/b97f6eadd929/scripts/setup-ralph-loop.sh\" \"CHAT TITLE: NeonOS v2 with Ralph Loop\n\nBuild NeonOS MVP following the COMPLETE architecture in hidden-puzzling-plum.md including the new UI/UX Design System from Section 6.\n\nPROJECT SETUP: Vite + React + TypeScript + Tailwind + Lucide React. Terminal theme \\(slate-950, emerald-500, amber-500, JetBrains Mono\\).\n\nBUILD INCREMENTALLY:\n1. Types \\(UserRecord, InventoryItem, Connector, etc.\\)\n2. State management with userManagement reducer\n3. Mock data \\(32 LED items, 8 connectors, mock users including pending/active states\\)\n4. UI Components following Section 6 specs:\n   - Card component with borders/shadows\n   - Button variants\n   - Input with labels\n   - Table with proper styling\n   - WireColorCheckbox component\n5. PageTemplate wrapper \\(p-6, max-w-7xl, space-y-8\\)\n6. Layout \\(Sidebar with active states, Header\\)\n7. Dashboard \\(4-col grid for stats, proper card spacing\\)\n8. New Item Entry\n9. Inventory Management\n10. Wire Diagram System \\(3-4 col grid for wire colors, connector cards with borders, styled termination table\\)\n11. Rentals Calendar\n12. Labels Studio\n13. User Management Page \\(owner-only, user table, permission controls, request approval\\)\n14. Permission Request UI\n\nCRITICAL: Follow Section 6 UI/UX specs exactly - proper padding, card borders, grid layouts, no content bleeding to edges.\n\nMOCK USERS: Kenny \\(Owner\\), Zach \\(Manager\\), Nathan \\(Staff\\), Curtis \\(limited\\), NewUser1 \\(pending\\), NewUser2 \\(active with request\\)\n\nSUCCESS: All pages work with proper spacing/layout, User Management functional, permission system enforces rules, wire diagram matcher accurate, build passes, no TypeScript errors.\n\nAfter each iteration: test build, verify UI spacing, check all pages render correctly, fix errors.\n\nOutput <promise>NEONOS_V2_COMPLETE</promise> when done.\" --max-iterations 60 --completion-promise \"NEONOS_V2_COMPLETE\")",
+      "Bash(npm create:*)",
+      "Bash(npm init:*)",
+      "Bash(npm pkg:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm run build:*)",
+      "Skill(frontend-design:frontend-design)",
+      "Skill(frontend-design:frontend-design:*)",
+      "Bash(\"/Users/kg3/.claude/plugins/cache/claude-plugins-official/ralph-loop/b97f6eadd929/scripts/setup-ralph-loop.sh\" \"Test ralph loop\" --max-iterations 3 --completion-promise \"TEST_COMPLETE\")",
+      "Skill(ralph-loop:cancel-ralph)",
+      "Skill(ralph-loop:cancel-ralph:*)",
+      "Bash(test:*)",
+      "Bash(claude plugin marketplace add https://superchargeclaudecode.com/api/marketplace.json)",
+      "Bash(claude plugin marketplace update supercharge-claude-code)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(brew list:*)",
+      "Bash(brew install:*)",
+      "Bash(gh auth status:*)"
+    ]
+  }
+}
