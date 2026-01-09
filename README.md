@@ -807,8 +807,7 @@ This software is proprietary and confidential. Unauthorized copying, distributio
 ## 📞 Support
 
 **For KG3 Team:**
-- **Internal Slack:** #neonos-support
-- **Manager:** Zach Freeman
+- **Internal Slack:** #neonos-support`
 - **Developer:** Kenny Graham
 
 **Technical Issues:**
