@@ -1,0 +1,35 @@
+{
+  "name": "wire-diagram-studio",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
+    "server": "tsx server/webhook-server.ts",
+    "dev:full": "concurrently \"npm run dev\" \"npm run server\""
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@tsconfig/svelte": "^5.0.6",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^24.10.1",
+    "@types/uuid": "^10.0.0",
+    "concurrently": "^9.1.2",
+    "svelte": "^5.43.8",
+    "svelte-check": "^4.3.4",
+    "tsx": "^4.19.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "html2canvas": "^1.4.1",
+    "idb": "^8.0.3",
+    "uuid": "^13.0.0"
+  }
+}
